@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A80F0B7D1EEEBAD700A1FB09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0B7C1EEEBAD700A1FB09 /* AppDelegate.m */; };
+		A80F0B801EEEBAD700A1FB09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0B7F1EEEBAD700A1FB09 /* main.m */; };
+		A80F0B831EEEBAD700A1FB09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0B821EEEBAD700A1FB09 /* ViewController.m */; };
+		A80F0B851EEEBAD700A1FB09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80F0B841EEEBAD700A1FB09 /* Assets.xcassets */; };
+		A80F0B881EEEBAD700A1FB09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80F0B861EEEBAD700A1FB09 /* Main.storyboard */; };
+		A80F0BB41EEEC4D100A1FB09 /* NSString+ESExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0B941EEEC4D100A1FB09 /* NSString+ESExtension.m */; };
+		A80F0BB51EEEC4D100A1FB09 /* ESDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0B971EEEC4D100A1FB09 /* ESDialogController.m */; };
+		A80F0BB61EEEC4D100A1FB09 /* ESDialogController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80F0B981EEEC4D100A1FB09 /* ESDialogController.xib */; };
+		A80F0BB71EEEC4D100A1FB09 /* ESInputJsonController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0B9A1EEEC4D100A1FB09 /* ESInputJsonController.m */; };
+		A80F0BB81EEEC4D100A1FB09 /* ESInputJsonController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80F0B9B1EEEC4D100A1FB09 /* ESInputJsonController.xib */; };
+		A80F0BB91EEEC4D100A1FB09 /* ESSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0B9D1EEEC4D100A1FB09 /* ESSettingController.m */; };
+		A80F0BBA1EEEC4D100A1FB09 /* ESSettingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80F0B9E1EEEC4D100A1FB09 /* ESSettingController.xib */; };
+		A80F0BBC1EEEC4D100A1FB09 /* ESJsonFormatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0BA31EEEC4D100A1FB09 /* ESJsonFormatManager.m */; };
+		A80F0BBD1EEEC4D100A1FB09 /* ESClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0BA61EEEC4D100A1FB09 /* ESClassInfo.m */; };
+		A80F0BBE1EEEC4D100A1FB09 /* ESFormatInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0BA81EEEC4D100A1FB09 /* ESFormatInfo.m */; };
+		A80F0BBF1EEEC4D100A1FB09 /* ESPair.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0BAA1EEEC4D100A1FB09 /* ESPair.m */; };
+		A80F0BC01EEEC4D100A1FB09 /* ESPbxprojInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0BAC1EEEC4D100A1FB09 /* ESPbxprojInfo.m */; };
+		A80F0BC11EEEC4D100A1FB09 /* ESJsonFormatSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0BAF1EEEC4D100A1FB09 /* ESJsonFormatSetting.m */; };
+		A80F0BC21EEEC4D100A1FB09 /* ESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F0BB21EEEC4D100A1FB09 /* ESUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A80F0B781EEEBAD700A1FB09 /* JsonFormatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonFormatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80F0B7B1EEEBAD700A1FB09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A80F0B7C1EEEBAD700A1FB09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A80F0B7F1EEEBAD700A1FB09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A80F0B811EEEBAD700A1FB09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A80F0B821EEEBAD700A1FB09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A80F0B841EEEBAD700A1FB09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A80F0B871EEEBAD700A1FB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A80F0B891EEEBAD700A1FB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80F0B931EEEC4D100A1FB09 /* NSString+ESExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ESExtension.h"; sourceTree = "<group>"; };
+		A80F0B941EEEC4D100A1FB09 /* NSString+ESExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ESExtension.m"; sourceTree = "<group>"; };
+		A80F0B961EEEC4D100A1FB09 /* ESDialogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESDialogController.h; sourceTree = "<group>"; };
+		A80F0B971EEEC4D100A1FB09 /* ESDialogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESDialogController.m; sourceTree = "<group>"; };
+		A80F0B981EEEC4D100A1FB09 /* ESDialogController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESDialogController.xib; sourceTree = "<group>"; };
+		A80F0B991EEEC4D100A1FB09 /* ESInputJsonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESInputJsonController.h; sourceTree = "<group>"; };
+		A80F0B9A1EEEC4D100A1FB09 /* ESInputJsonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESInputJsonController.m; sourceTree = "<group>"; };
+		A80F0B9B1EEEC4D100A1FB09 /* ESInputJsonController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESInputJsonController.xib; sourceTree = "<group>"; };
+		A80F0B9C1EEEC4D100A1FB09 /* ESSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSettingController.h; sourceTree = "<group>"; };
+		A80F0B9D1EEEC4D100A1FB09 /* ESSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSettingController.m; sourceTree = "<group>"; };
+		A80F0B9E1EEEC4D100A1FB09 /* ESSettingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESSettingController.xib; sourceTree = "<group>"; };
+		A80F0B9F1EEEC4D100A1FB09 /* ESJsonFormat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ESJsonFormat-Prefix.pch"; sourceTree = "<group>"; };
+		A80F0BA21EEEC4D100A1FB09 /* ESJsonFormatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESJsonFormatManager.h; sourceTree = "<group>"; };
+		A80F0BA31EEEC4D100A1FB09 /* ESJsonFormatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESJsonFormatManager.m; sourceTree = "<group>"; };
+		A80F0BA51EEEC4D100A1FB09 /* ESClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESClassInfo.h; sourceTree = "<group>"; };
+		A80F0BA61EEEC4D100A1FB09 /* ESClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESClassInfo.m; sourceTree = "<group>"; };
+		A80F0BA71EEEC4D100A1FB09 /* ESFormatInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESFormatInfo.h; sourceTree = "<group>"; };
+		A80F0BA81EEEC4D100A1FB09 /* ESFormatInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESFormatInfo.m; sourceTree = "<group>"; };
+		A80F0BA91EEEC4D100A1FB09 /* ESPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPair.h; sourceTree = "<group>"; };
+		A80F0BAA1EEEC4D100A1FB09 /* ESPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPair.m; sourceTree = "<group>"; };
+		A80F0BAB1EEEC4D100A1FB09 /* ESPbxprojInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPbxprojInfo.h; sourceTree = "<group>"; };
+		A80F0BAC1EEEC4D100A1FB09 /* ESPbxprojInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPbxprojInfo.m; sourceTree = "<group>"; };
+		A80F0BAE1EEEC4D100A1FB09 /* ESJsonFormatSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESJsonFormatSetting.h; sourceTree = "<group>"; };
+		A80F0BAF1EEEC4D100A1FB09 /* ESJsonFormatSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESJsonFormatSetting.m; sourceTree = "<group>"; };
+		A80F0BB11EEEC4D100A1FB09 /* ESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESUtils.h; sourceTree = "<group>"; };
+		A80F0BB21EEEC4D100A1FB09 /* ESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A80F0B751EEEBAD700A1FB09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80F0B6F1EEEBAD700A1FB09 = {
+			isa = PBXGroup;
+			children = (
+				A80F0B7A1EEEBAD700A1FB09 /* JsonFormatApp */,
+				A80F0B791EEEBAD700A1FB09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A80F0B791EEEBAD700A1FB09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80F0B781EEEBAD700A1FB09 /* JsonFormatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A80F0B7A1EEEBAD700A1FB09 /* JsonFormatApp */ = {
+			isa = PBXGroup;
+			children = (
+				A80F0B8F1EEEC4D100A1FB09 /* ESJsonFormat */,
+				A80F0B7B1EEEBAD700A1FB09 /* AppDelegate.h */,
+				A80F0B7C1EEEBAD700A1FB09 /* AppDelegate.m */,
+				A80F0B811EEEBAD700A1FB09 /* ViewController.h */,
+				A80F0B821EEEBAD700A1FB09 /* ViewController.m */,
+				A80F0B841EEEBAD700A1FB09 /* Assets.xcassets */,
+				A80F0B861EEEBAD700A1FB09 /* Main.storyboard */,
+				A80F0B891EEEBAD700A1FB09 /* Info.plist */,
+				A80F0B7E1EEEBAD700A1FB09 /* Supporting Files */,
+			);
+			path = JsonFormatApp;
+			sourceTree = "<group>";
+		};
+		A80F0B7E1EEEBAD700A1FB09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A80F0B7F1EEEBAD700A1FB09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A80F0B8F1EEEC4D100A1FB09 /* ESJsonFormat */ = {
+			isa = PBXGroup;
+			children = (
+				A80F0B901EEEC4D100A1FB09 /* Category */,
+				A80F0B951EEEC4D100A1FB09 /* Controller */,
+				A80F0B9F1EEEC4D100A1FB09 /* ESJsonFormat-Prefix.pch */,
+				A80F0BA21EEEC4D100A1FB09 /* ESJsonFormatManager.h */,
+				A80F0BA31EEEC4D100A1FB09 /* ESJsonFormatManager.m */,
+				A80F0BA41EEEC4D100A1FB09 /* Model */,
+				A80F0BAD1EEEC4D100A1FB09 /* Setting */,
+				A80F0BB01EEEC4D100A1FB09 /* Utils */,
+			);
+			path = ESJsonFormat;
+			sourceTree = "<group>";
+		};
+		A80F0B901EEEC4D100A1FB09 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A80F0B931EEEC4D100A1FB09 /* NSString+ESExtension.h */,
+				A80F0B941EEEC4D100A1FB09 /* NSString+ESExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A80F0B951EEEC4D100A1FB09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A80F0B961EEEC4D100A1FB09 /* ESDialogController.h */,
+				A80F0B971EEEC4D100A1FB09 /* ESDialogController.m */,
+				A80F0B981EEEC4D100A1FB09 /* ESDialogController.xib */,
+				A80F0B991EEEC4D100A1FB09 /* ESInputJsonController.h */,
+				A80F0B9A1EEEC4D100A1FB09 /* ESInputJsonController.m */,
+				A80F0B9B1EEEC4D100A1FB09 /* ESInputJsonController.xib */,
+				A80F0B9C1EEEC4D100A1FB09 /* ESSettingController.h */,
+				A80F0B9D1EEEC4D100A1FB09 /* ESSettingController.m */,
+				A80F0B9E1EEEC4D100A1FB09 /* ESSettingController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A80F0BA41EEEC4D100A1FB09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A80F0BA51EEEC4D100A1FB09 /* ESClassInfo.h */,
+				A80F0BA61EEEC4D100A1FB09 /* ESClassInfo.m */,
+				A80F0BA71EEEC4D100A1FB09 /* ESFormatInfo.h */,
+				A80F0BA81EEEC4D100A1FB09 /* ESFormatInfo.m */,
+				A80F0BA91EEEC4D100A1FB09 /* ESPair.h */,
+				A80F0BAA1EEEC4D100A1FB09 /* ESPair.m */,
+				A80F0BAB1EEEC4D100A1FB09 /* ESPbxprojInfo.h */,
+				A80F0BAC1EEEC4D100A1FB09 /* ESPbxprojInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A80F0BAD1EEEC4D100A1FB09 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A80F0BAE1EEEC4D100A1FB09 /* ESJsonFormatSetting.h */,
+				A80F0BAF1EEEC4D100A1FB09 /* ESJsonFormatSetting.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		A80F0BB01EEEC4D100A1FB09 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A80F0BB11EEEC4D100A1FB09 /* ESUtils.h */,
+				A80F0BB21EEEC4D100A1FB09 /* ESUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A80F0B771EEEBAD700A1FB09 /* JsonFormatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80F0B8C1EEEBAD700A1FB09 /* Build configuration list for PBXNativeTarget "JsonFormatApp" */;
+			buildPhases = (
+				A80F0B741EEEBAD700A1FB09 /* Sources */,
+				A80F0B751EEEBAD700A1FB09 /* Frameworks */,
+				A80F0B761EEEBAD700A1FB09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonFormatApp;
+			productName = JsonFormatApp;
+			productReference = A80F0B781EEEBAD700A1FB09 /* JsonFormatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80F0B701EEEBAD700A1FB09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "廉鑫博";
+				TargetAttributes = {
+					A80F0B771EEEBAD700A1FB09 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A80F0B731EEEBAD700A1FB09 /* Build configuration list for PBXProject "JsonFormatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A80F0B6F1EEEBAD700A1FB09;
+			productRefGroup = A80F0B791EEEBAD700A1FB09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A80F0B771EEEBAD700A1FB09 /* JsonFormatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80F0B761EEEBAD700A1FB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80F0BB81EEEC4D100A1FB09 /* ESInputJsonController.xib in Resources */,
+				A80F0B851EEEBAD700A1FB09 /* Assets.xcassets in Resources */,
+				A80F0BB61EEEC4D100A1FB09 /* ESDialogController.xib in Resources */,
+				A80F0BBA1EEEC4D100A1FB09 /* ESSettingController.xib in Resources */,
+				A80F0B881EEEBAD700A1FB09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80F0B741EEEBAD700A1FB09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80F0BBC1EEEC4D100A1FB09 /* ESJsonFormatManager.m in Sources */,
+				A80F0B831EEEBAD700A1FB09 /* ViewController.m in Sources */,
+				A80F0BB41EEEC4D100A1FB09 /* NSString+ESExtension.m in Sources */,
+				A80F0BBF1EEEC4D100A1FB09 /* ESPair.m in Sources */,
+				A80F0BB91EEEC4D100A1FB09 /* ESSettingController.m in Sources */,
+				A80F0B801EEEBAD700A1FB09 /* main.m in Sources */,
+				A80F0BBE1EEEC4D100A1FB09 /* ESFormatInfo.m in Sources */,
+				A80F0B7D1EEEBAD700A1FB09 /* AppDelegate.m in Sources */,
+				A80F0BC11EEEC4D100A1FB09 /* ESJsonFormatSetting.m in Sources */,
+				A80F0BB71EEEC4D100A1FB09 /* ESInputJsonController.m in Sources */,
+				A80F0BC01EEEC4D100A1FB09 /* ESPbxprojInfo.m in Sources */,
+				A80F0BC21EEEC4D100A1FB09 /* ESUtils.m in Sources */,
+				A80F0BB51EEEC4D100A1FB09 /* ESDialogController.m in Sources */,
+				A80F0BBD1EEEC4D100A1FB09 /* ESClassInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A80F0B861EEEBAD700A1FB09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80F0B871EEEBAD700A1FB09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A80F0B8A1EEEBAD700A1FB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A80F0B8B1EEEBAD700A1FB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A80F0B8D1EEEBAD700A1FB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JsonFormatApp/ESJsonFormat/ESJsonFormat-Prefix.pch";
+				INFOPLIST_FILE = JsonFormatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.JsonFormatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A80F0B8E1EEEBAD700A1FB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JsonFormatApp/ESJsonFormat/ESJsonFormat-Prefix.pch";
+				INFOPLIST_FILE = JsonFormatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyy.JsonFormatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80F0B731EEEBAD700A1FB09 /* Build configuration list for PBXProject "JsonFormatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80F0B8A1EEEBAD700A1FB09 /* Debug */,
+				A80F0B8B1EEEBAD700A1FB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80F0B8C1EEEBAD700A1FB09 /* Build configuration list for PBXNativeTarget "JsonFormatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80F0B8D1EEEBAD700A1FB09 /* Debug */,
+				A80F0B8E1EEEBAD700A1FB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80F0B701EEEBAD700A1FB09 /* Project object */;
+}
